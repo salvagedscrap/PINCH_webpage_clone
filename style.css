@@ -1,0 +1,214 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 16px;
+}
+body{
+    font-family: 'EB Garamond', serif;
+}
+ img{
+    width: 100%;
+    height: auto;
+}
+header{
+    border-bottom: 1px solid #999;
+}
+.logodiv{
+    display:flex
+}
+.logo{
+    display: inline-block;
+    font-family: 'Questrial', sans-serif;
+    font-size: 2rem;
+    margin: 2rem auto;
+    width: auto;
+}
+.nav{
+    display: flex;
+ 
+    margin: 2rem 0;
+}
+ul{
+    display: flex;
+    justify-content:space-evenly ;
+    width: 90%;
+    margin: 2rem auto;
+    flex-wrap: wrap;
+    
+}
+ul li{
+    display: inline-block;
+    list-style: none;
+    padding:2rem 0.5rem;
+ 
+}
+li a{
+    text-decoration: none;
+    color:black;
+    font-size:1.1rem;
+    transition: all 0.3s;
+    font-weight: 300;
+    padding: 0.2rem 0;
+}
+li a:hover{
+    color: #999;
+    border-bottom: .1px solid #333;
+}
+
+
+.main{
+    margin: 5rem 0;
+}
+
+.top-img{
+    width: 80%;
+    margin: 5rem auto;
+}
+.top-text{
+    width: 40%;
+    margin: 3rem auto;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.explore-by-room{
+    background-color: #f3f3f3;
+    text-align: center;
+    color: #333;
+
+    
+    
+}
+.explore-by-room h2{
+    font-size: 1.6rem;
+    padding: 3rem;
+    font-weight: 100;
+    
+}
+.cards{
+    display: flex;
+    justify-content:space-evenly ;
+    padding: 5rem 0;
+    font-weight: 100;
+}
+
+.card{
+    display: inline-block;
+    width: 30%;
+    transition: .3s;
+  
+}
+
+.card:hover{
+    color: #999;
+}
+.making-beautiful-things{
+
+    padding: 5rem 3rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+.making-text{
+    width: 100%;
+}
+.making-text h2{
+    font-weight: 100;
+}
+.making-text p{
+    width: 60%;
+    font-size: 1.2rem;
+    margin: 3rem 0;
+    letter-spacing: 1px;
+    line-height: 2rem;
+}
+.making-text a{
+    text-decoration: none;
+    color: #333;
+    font-size: 1.4rem;
+    transition: all .3s;
+}
+.making-text a:hover{
+    color: #000;
+    text-decoration: underline;
+}
+
+.latest-work{
+    text-align: center;
+
+}
+.latest-work-header{
+    font-weight: 100;
+    padding: 3rem;
+
+}
+.latest-work h3{
+    padding:2rem;
+
+}
+
+
+.follow-us{
+    background-color: #f3f3f3;
+}
+.follow-us h2{
+    font-size: 1.6rem;
+    padding: 3rem;
+    font-weight: 100;
+    text-align: center;
+}
+
+.cards-follow{
+    display: flex;
+    justify-content:space-evenly ;
+    padding: 2rem 0;
+
+}
+
+.card-follow{
+    display: inline-block;
+    width:15%;
+  
+  
+}
+.contact{
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 3rem 2rem;
+}
+.contact p{
+    padding: 2rem;
+}
+
+@media (max-width:950px){
+    .cards{
+        display: block;
+        width: 70%;
+        margin: auto auto;
+    }
+.card{
+        display: block;
+        width: 100%;   
+    }
+    .making-beautiful-things{
+        display: block;
+    }
+    .making-text p{
+        width: 100%;
+    }
+    .cards-follow{
+        display: block ;
+    }
+    .card-follow{
+        display: block;
+        width: 100%;
+    }
+    .contact{
+        display: block;
+        text-align: center;
+    }
+
+}
